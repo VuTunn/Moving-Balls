@@ -30,7 +30,7 @@ var shapes=[];  // lưu các dấu chấm
         var size = gl.getUniformLocation(p, "_size");
         gl.uniform2f(size, canv.width, canv.height);
 
-        canv.onmousedown=function(e){mdown(e, xy)}
+        //canv.onmousedown=function(e){mdown(e, xy)}
         shapes.push( [50,50, -0.4, 0.4] );
         colors.push( [Math.random(), Math.random(), Math.random()] );
         anim();
